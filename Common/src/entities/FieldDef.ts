@@ -6,6 +6,7 @@
         Datatype: string
     }
 
+
     export class FieldDef implements IFieldDef {
         constructor(
             public Label: string,

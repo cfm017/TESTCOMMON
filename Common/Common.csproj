@@ -68,6 +68,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".gitignore" />
     <Content Include="lib\ag-grid\dist\ag-grid.css" />
     <Content Include="lib\ag-grid\dist\ag-grid.js" />
     <Content Include="lib\ag-grid\dist\ag-grid.min.css" />
@@ -364,6 +365,10 @@
     <Content Include="lib\ag-grid\notes.txt" />
     <Content Include="lib\ag-grid\spec\columnController\columnControllerTest.js" />
     <Content Include="lib\ag-grid\spec\sample.js" />
+    <Content Include="lib\angular\angular-csp.css" />
+    <Content Include="lib\angular\angular.js" />
+    <Content Include="lib\angular\angular.min.js" />
+    <Content Include="lib\angular\index.js" />
     <Content Include="packages.config">
       <SubType>Designer</SubType>
     </Content>
@@ -460,6 +465,13 @@
     <Content Include="lib\ag-grid\src\styles\theme-dark.styl" />
     <Content Include="lib\ag-grid\src\styles\theme-fresh.styl" />
     <Content Include="lib\ag-grid\tsd.json" />
+    <Content Include="lib\angular\.bower.json" />
+    <Content Include="lib\angular\angular.min.js.gzip" />
+    <Content Include="lib\angular\angular.min.js.map" />
+    <Content Include="lib\angular\bower.json" />
+    <Content Include="lib\angular\package.json" />
+    <Content Include="lib\angular\README.md" />
+    <Content Include=".npmignore" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -552,6 +564,7 @@
     <TypeScriptCompile Include="lib\ag-grid\src\ts\widgets\agDropdownList.ts" />
     <TypeScriptCompile Include="lib\ag-grid\src\ts\widgets\agList.ts" />
     <TypeScriptCompile Include="lib\ag-grid\src\ts\widgets\agPopupService.ts" />
+    <TypeScriptCompile Include="scripts\typings\ag-grid\ag-grid.d.ts" />
     <TypeScriptCompile Include="scripts\typings\angularjs\angular-animate.d.ts" />
     <TypeScriptCompile Include="scripts\typings\angularjs\angular-component-router.d.ts" />
     <TypeScriptCompile Include="scripts\typings\angularjs\angular-cookies.d.ts" />
