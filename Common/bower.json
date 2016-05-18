@@ -2,7 +2,7 @@
   "name": "COMMON",
   "main": "agGridUtils.js",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "ignore": [
 		"**/.*",
 		"lib",
