@@ -5,11 +5,11 @@
   },
   "ignore": [
     "bower_components",
-    "scripts/",
+    "Common/scripts",
     "test"
   ],
   "main": "agGridUtils.js",
   "name": "COMMON",
   "private": true,
-  "version": "0.0.6"
+  "version": "0.0.7"
 }
