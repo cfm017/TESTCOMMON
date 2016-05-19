@@ -1,17 +1,15 @@
 {
-  "name": "COMMON",
-  "main": "agGridUtils.js",
-  "private": true,
-  "version": "0.0.3",
-  "ignore": [
-		"**/.*",
-		"lib",
-		"scripts",
-		"test"
-	],
   "dependencies": {
     "angular": "1.5.0",
     "ag-grid": "3.2.2"
-
-  }
+  },
+  "ignore": [
+    "bower_components",
+    "scripts",
+    "test"
+  ],
+  "main": "agGridUtils.js",
+  "name": "COMMON",
+  "private": true,
+  "version": "0.0.5"
 }
